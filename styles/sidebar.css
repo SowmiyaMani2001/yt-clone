@@ -1,0 +1,70 @@
+.sidebar{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0px;
+    background-color: white;
+    width: 80px;
+    z-index: 200;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.vdo-time{
+    background-color: black;
+    color: white;
+    position: absolute;   
+    right: 6px;
+    bottom: 13px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.sidebar-angle{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+}
+.sidebar-angle:hover{
+    background-color: rgb(241, 235, 235);
+}
+.home-pic{
+    height: 22px;
+    width: 22px;
+    margin-bottom: 5px;
+}
+.explore-pic{
+    height: 23px;
+    width: 23px;
+    margin-bottom: 5px;
+}
+.sub-pic{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+.orginal-pic{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+.music-pic{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+.lib-pic{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+.sidebar-angle div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}

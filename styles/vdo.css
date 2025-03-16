@@ -1,0 +1,102 @@
+.vdio-entire-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    
+}
+@media (max-width: 800px){
+    .vdio-entire-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 801px) and (min-width:1199){
+    .vdio-entire-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1200px){
+    .vdio-entire-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.thumbnail{
+    height: 250px;
+    width: 100%;   
+}
+.vdo-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.vj{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+   
+}
+.profile-pic{
+    width: 40px;
+    border-radius: 55px;
+}
+.thumbnail-row{
+  margin-top: 12px;
+  
+}
+.vdo-maker,.vdo-veiw{
+    color: rgb(78, 75, 75);
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+.my-profile{
+    height: 43px;
+    width: 43px;
+    border-radius: 60px;
+}
+
+.bndw{
+    height: 250px;
+    width: 100%;
+}
+.content-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 11px;
+    line-height: 21px;
+}
+.content-creator{
+    color: rgb(136, 131, 131);
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    
+}
+.content-stats{
+    color: rgb(136, 131, 131);
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.content-logo{
+    height: 42px;
+    width: 42px;
+    border-radius: 25px;
+    
+}
+.division3{
+    margin-top: 8px;
+    margin-bottom: 0px;
+   
+}
+.division3-grid{
+    display: grid;
+    grid-template-columns:50px 1fr;
+}
+.container{
+    position: relative;
+}

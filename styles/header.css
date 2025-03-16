@@ -1,0 +1,192 @@
+.search{
+    flex: 1;
+    height: 35px;
+    padding-left: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(234, 233, 233);
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    background-color: rgb(255, 255, 255);
+    width: 0px;
+   
+}
+.search::placeholder {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 229, 229);
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.mid-section{
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 5px;
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.right-section{
+    width: 280px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    flex-shrink: 0px;   
+}
+.threelines{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.utube-logo{
+    height: 40px;
+    width: 120px;
+}
+.search-icon{
+    height: 38px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(234, 233, 233);
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-left: -1px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    margin-right: 15px;
+    position: relative;
+}
+.search-icon .tool-tip,
+.micro-icon .tool-tip,
+.vdo-icon .tool-tip,
+.apps-icon .tool-tip,
+.notification-symbol .tool-tip
+{
+    position: absolute;
+    background-color: rgb(163, 159, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -28px;
+    right: 4px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    display: flex;
+    
+}
+.search-icon:hover .tool-tip,
+.micro-icon:hover .tool-tip,
+.vdo-icon:hover .tool-tip,
+.apps-icon:hover .tool-tip,
+.notification-symbol:hover .tool-tip{
+    opacity: 1;  
+}
+.micro-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: white;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    white-space: nowrap;
+}
+.srh-pic{
+    height: 20px;
+    width: 20px;   
+}
+.mic-pic{
+    height: 23px;
+    width: 23px;
+}
+.vdo-icon{
+   margin-right: 10px;
+   border: none;
+   background-color: white;
+   margin-bottom: 1px;
+   margin-top: 1px;
+   position: relative;
+}
+.vdo-pic{
+    height: 19px;
+    width: 22px;
+}
+.apps-icon{
+    position: relative;
+    border: none;
+    background-color: white;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+.apps-pic{
+    height: 22px;
+    width: 22px;
+    background-color: white;
+}
+.bell-icon{
+    height: 35px;
+    width: 36px;
+    border: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.bell-pic{
+    height: 31px;
+    width: 27px;
+}
+.notification-symbol{
+    position: relative;
+}
+.notification-counter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+.user-id{
+    height: 41px;
+    width: 41px;
+    border-radius: 20px;
+}
